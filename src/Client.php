@@ -87,11 +87,6 @@ class Client
         }
     }
 
-    public static function guzzle(string $user, string $token): Client
-    {
-        return new self(new GuzzleClient, new Credentials($user, $token));
-    }
-
     public function getLastResponse(): ResponseInterface
     {
         return $this->lastResponse;

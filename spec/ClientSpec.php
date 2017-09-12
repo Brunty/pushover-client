@@ -2,8 +2,6 @@
 
 use Brunty\Pushover\Client;
 use Brunty\Pushover\Credentials;
-use Brunty\Pushover\Exception\InvalidToken;
-use Brunty\Pushover\Exception\InvalidUser;
 use Brunty\Pushover\Message;
 use Brunty\Pushover\Spec\Stubs\StubClient;
 use Http\Mock\Client as MockClient;
